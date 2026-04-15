@@ -11,8 +11,8 @@ import { Spinner } from "@/components/ui/spinner"
 import { Building2, Lock, User } from "lucide-react"
 
 export default function LoginPage() {
-  const [cpf, setCpf] = useState("")
-  const [senha, setSenha] = useState("")
+  const [cpf, setCpf] = useState("12345678911")
+  const [senha, setSenha] = useState("123")
   const [error, setError] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
   const { login } = useAuth()
@@ -112,7 +112,7 @@ export default function LoginPage() {
 
             <div className="mt-6 pt-6 border-t border-border">
               <p className="text-xs text-muted-foreground text-center">
-                Use qualquer email e senha para entrar na demonstração
+                Use CPF 12345678911 e senha 123 para demonstração
               </p>
             </div>
           </CardContent>
