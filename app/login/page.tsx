@@ -11,7 +11,7 @@ import { Spinner } from "@/components/ui/spinner"
 import { Building2, Lock, User } from "lucide-react"
 
 export default function LoginPage() {
-  const [cpf, setCpf] = useState("12345678911")
+  const [cpf, setCpf] = useState("780.693.200-36")
   const [senha, setSenha] = useState("123")
   const [error, setError] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -112,7 +112,7 @@ export default function LoginPage() {
 
             <div className="mt-6 pt-6 border-t border-border">
               <p className="text-xs text-muted-foreground text-center">
-                Use CPF 12345678911 e senha 123 para demonstração
+                Use CPF 780.693.200-36 e senha 123 para demonstração
               </p>
             </div>
           </CardContent>
